@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+.shared/
+.profile
+
+# VSCode
+.vscode/
+
+# Data - avoid uploading full Kaggle datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.zip
+*.rar
+
+# Image dataset folders
+train/
+test/
+images/
+raw/
+
+# Models
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# Outputs
+outputs/
+runs/
+logs/
+wandb/
+tensorboard/
+checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
